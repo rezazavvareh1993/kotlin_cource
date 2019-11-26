@@ -16,7 +16,9 @@ class KotlinRecyclerViewAdapter(val list : List<String> , val activityFunction :
         )
     }
 
-    override fun getItemCount() = list.size
+    override fun getItemCount() : Int{
+        return list.size
+    }
 
     override fun onBindViewHolder(holder: myViewHolder, position: Int) {
         holder.Bind(list[position])
