@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlincodes.mvvm.TestMVVMActivity"
+    android:orientation="vertical"
+    android:gravity="center|top">
+
+    <EditText
+        android:id="@+id/edt_test_mvvm_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="parent"
+        tools:layout_editor_absoluteX="138dp" />
+
+    <Button
+        android:id="@+id/btn_test_mvvm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE">
+
+    </Button>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mvvm_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -11,20 +11,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".KotlinCodes.KotlinDagger2.TestDagger2Activity">
+        <activity android:name=".kotlincodes.FireBase.DataBase.FireBaseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KotlinCodes.KotlinRetrofit.TestRetrofitActivity">
+        <activity android:name=".kotlincodes.mvvm.TestMVVMActivity"></activity>
+        <activity android:name=".kotlincodes.dagger2.TestDagger2Activity" />
+        <activity android:name=".kotlincodes.retrofit.TestRetrofitActivity" />
+        <activity android:name=".kotlincodes.rx.TestRXActivity" />
+        <activity android:name=".kotlincodes.recyclerview.KotlinRecyclerViewActivity" />
+        <activity android:name=".kotlincodes.navigatecomponent.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".KotlinCodes.KotlinRX.TestRXActivity"></activity>
-        <activity android:name=".KotlinCodes.KotlinRecyclerView.KotlinRecyclerViewActivity" />
-        <activity android:name=".KotlinCodes.MainActivity" />
-        <activity android:name=".KotlinCodes.MVP.TestMVPActivity" />
+        <activity android:name=".kotlincodes.mvp.TestMVPActivity" />
     </application>
 
 </manifest>

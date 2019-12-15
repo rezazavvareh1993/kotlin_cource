@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "580441670459",
+    "firebase_url": "https://kotlin-cource.firebaseio.com",
+    "project_id": "kotlin-cource",
+    "storage_bucket": "kotlin-cource.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580441670459:android:c3c527ce3eea47f97a2d1e",
+        "android_client_info": {
+          "package_name": "ir.calendar.kotlincource"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580441670459-s46b5b9a552l4id0dnfe4d5de07oqk76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsjEoSKUv1BJvf437B4s8CHCJ6cJ8w-6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580441670459-s46b5b9a552l4id0dnfe4d5de07oqk76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
